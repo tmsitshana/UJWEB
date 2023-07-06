@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MVCWebAppTest/.vs/MVCWebAppTest/DesignTimeBuild/.dtbcache.v2
+/MVCWebAppTest/.vs/MVCWebAppTest/FileContentIndex/2ac3fb1c-699f-4288-b1bb-83fe948ed7a7.vsidx
+/MVCWebAppTest/.vs/MVCWebAppTest/FileContentIndex/326f7ed5-92c4-4d77-ba6e-5487b1847439.vsidx
+*.vsidx
+*.v1
+*.v2
+*.suo
+*.bin
+*.lock
