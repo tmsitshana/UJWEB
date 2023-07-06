@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MVCWebAppTest</title>
+    
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+ 
+
+    <link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/vendor/animate/animate.compat.css">
+    <link rel="stylesheet" href="~/vendor/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/vendor/boxicons/css/boxicons.min.css" />
+    <link rel="stylesheet" href="~/vendor/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="~/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+    <link rel="stylesheet" href="~/css/theme.css" />
+    <link rel="stylesheet" href="~/css/skins/default.css" />
+    <link rel="stylesheet" href="~/css/custom.css">
+
+    <script src="~/vendor/modernizr/modernizr.js"></script>
+    <script src="~/vendor/jquery/jquery.js"></script>
+    <script src="~/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+	<script src="~/vendor/popper/umd/popper.min.js"></script>
+	<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="~/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+	<script src="~/vendor/common/common.js"></script>
+	<script src="~/vendor/nanoscroller/nanoscroller.js"></script>
+	<script src="~/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+	<script src="~/vendor/jquery-placeholder/jquery.placeholder.js"></script>
+	<script src="~/js/theme.js"></script>
+	<script src="~/js/custom.js"></script>
+	<script src="~/js/theme.init.js"></script>
+
+    <script src="~/js/config.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - MVCWebAppTest
+        </div>
+    </footer>
+    
+   
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

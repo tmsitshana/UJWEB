@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_LoggedoutLayout.cshtml";
+}
+
+ <script src="~/js/dist/login.js"></script>
+
+<section class="body-sign">
+    <div class="center-sign">
+
+        @* <a href="/" class="logo float-left">
+            <img src="~/img/ujLogo.png" height="70" alt="University Of Johannesburg" />
+            </a>*@
+
+        <div class="panel card-sign">
+            <div class="card-title-sign mt-3 text-end">
+                <h2 class="title text-uppercase font-weight-bold m-0" style="background-color: #E7540E;"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> Login</h2>
+            </div>
+
+
+            <div class="card-body">
+                <div class="form-group mb-3">
+                    <label>Username</label>
+                    <div class="input-group">
+                        <input name="Username" autocomplete="on" id="Username" type="text" class="form-control form-control-lg" />
+                        <span class="input-group-text">
+                            <i class="bx bx-user text-4"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="form-group mb-3">
+                    <div class="clearfix">
+                        <label class="float-left">Password</label>
+                    </div>
+                    <div class="input-group">
+                        <input name="Password" autocomplete="off" id="Password" type="password" class="form-control form-control-lg" />
+                        <span class="input-group-text">
+                            <i class="bx bx-lock text-4"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-8">
+                    </div>
+                    <div class="col-sm-4 text-end">
+                        <button id="btnLogin" type="submit" asp-action="UsersDashboard" asp-controller"User" class="btn btn-primary mt-2" style="background-color: #E7540E;"><i class="fa fa-sign-in"></i> Login</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p>
+            @ViewBag.ErorrMessage
+        </p>
+        <p class="text-center text-muted mt-3 mb-3">&copy;<span id="year"></span> Copyright: <a href="https://www.uj.ac.za/"> University Of Johannesburg</a></p>
+    </div>
+</section>
+<script>
+    //$(document).ready(function () {
+    //     $("#btnLogin").click(function (){
+              
+    //     });
+
+    //});
+</script>
