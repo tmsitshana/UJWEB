@@ -11,3 +11,5 @@
 *.suo
 *.bin
 *.lock
+/MVCWebAppTest/.vs/ProjectEvaluation/mvcwebapptest.metadata.v6.1
+/MVCWebAppTest/.vs/ProjectEvaluation/mvcwebapptest.projects.v6.1
